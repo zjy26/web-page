@@ -1,0 +1,234 @@
+/*大屏幕768-1024*/
+body{
+  /*width: 1920px;*/
+  width: 100%;
+  /*font-size: 14px;*/
+}
+header{
+  background:#FFD600;
+}
+header>p{
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+header>p img{
+  position: relative;
+  /*left: -400px;*/
+  left:-20.8%;
+}
+header a{
+  color:#000;
+  font-size:20px;
+}
+header .a1{
+  text-decoration: underline;
+  margin-right: 100px;
+}
+header .a3{
+  position: relative;
+  left: -40px;
+}
+/*头部里面的banner*/
+header .banner{
+  overflow: hidden;
+}
+header .banner .banner_lf,.banner_rt{
+  float: left;
+  width: 55%;
+  text-align: center;
+  margin-top: 160px;
+}
+.banner_rt{
+  width: 30%;
+  /*margin-left: -20px;*/
+}
+header .banner .banner_lf{
+  /*margin-top: 150px;*/
+  margin-top: 120px;
+}
+.banner_lf .active1{
+  font-size: 1.7rem;
+  color:#968163;
+}
+header .banner p{
+  text-align: center;
+  margin-bottom: 20px;
+  color:#917D64;
+}
+header .banner p:nth-child(3){
+  margin-bottom: 0;
+}
+/*了解外教君*/
+.know{
+  width: 100%;
+}
+.know_list{
+  background:#F8F9FA;
+
+}
+.know_list>ul{
+  overflow: hidden;
+  min-height: 400px;
+  /*width: 85%;*/
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+
+}
+.know_list>ul li{
+  width: 25%;
+  height: 100px;
+  margin-top: 50px;
+  float: left;
+  padding-left: 8%;
+}
+.know_list .p1{
+  font-size: 24px;
+}
+.know_list .p1+p{
+  color: #666;
+  font-size: 1.6rem;
+}
+.know_list>ul li>img{
+  position: relative;
+  left: -29%;
+  top: 43px;
+}
+/*课程理念*/
+.course{
+
+}
+.course h3{
+  text-align: center;
+  font-weight: bold;
+  margin: 50px auto 20px;
+}
+.course hr{
+  width: 60px;
+  height: 2px;
+  background: #BCBCBC;
+  margin: 0 auto 20px;
+  border: none;
+}
+.course p{
+  text-align: center;
+  font-size: 1.7rem;
+  color: #6B6B6B;
+}
+.course ul{
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  padding-top:60px;
+  text-align: center;
+}
+.course ul li{
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+}
+/*外交军风采*/
+.waijiao{
+  display: none;
+}
+/*用户说*/
+.user_say{
+}
+.user_say ul{
+  overflow: hidden;
+  width:80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.user_say ul li{
+  float: left;
+  margin-top: 10px;
+  /*padding-left:10%;*/
+  padding-left: 15%;
+  width: 34%;
+  /*height: 280px;*/
+  height: 380px;
+  /*border: 1px solid #2ab2df;*/
+  vertical-align: middle;
+}
+.user_say ul li:nth-child(1){
+  background: url("../images/person.png") no-repeat 0 50%  ;
+  background-size: 30%;
+}
+.user_say ul li:nth-child(2){
+  background: url("../images/person.png") no-repeat 0 50%  ;
+  background-size: 30%;
+}
+.user_say ul li:nth-child(3){
+  background: url("../images/person.png") no-repeat 0 50%  ;
+  background-size: 30%;
+}
+.user_say ul li:nth-child(4){
+  background: url("../images/person.png") no-repeat 0 50%  ;
+  background-size: 30%;
+}
+.user_say ul li:nth-child(5){
+  background: url("../images/person.png") no-repeat 0 50%  ;
+  background-size: 30%;
+}
+.user_say ul li:nth-child(6){
+  background: url("../images/person.png") no-repeat 0 50%  ;
+  background-size: 30%;
+}
+
+.user_say ul li p{
+  text-align: left;
+  padding-right: 30px;
+}
+.user_say ul li p.p_title{
+  font-size: 2.2rem;
+  color: #000000;
+}
+.user_say ul li p.p_intro{
+  font-size:1.5rem;
+  color:#A9D9FF;
+}
+.user_say ul li p.p_box{
+  /*margin-top: 20px;*/
+  margin-top: 10%;
+  margin-bottom: 0;
+  margin-right: 10px;
+  padding:15px 10px;
+  border: 1px solid #F8F9FA;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+  position: relative;
+}
+.user_say ul li p.p_box b{
+  display: inline-block;
+  position: absolute;
+  /*background-color: red;*/
+  top:-8%;
+  left:4%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #F8F9FA;
+}
+.user_say img{
+  display: block;
+  margin:  0 auto 50px;
+}
+/*媒体报道*/
+.report ul{
+  width: 80%;
+  margin: 0 auto;
+}
+.report ul li{
+  width: 20%;
+  padding: 20px 2% 100px;
+}
+.report ul li img{
+  vertical-align: middle;
+}
+.report p{
+  height: 250px;
+  background: #000;
+}
